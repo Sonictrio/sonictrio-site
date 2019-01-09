@@ -1,0 +1,93 @@
+﻿html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    color: #333333;
+    background-image: url('/imgs/ST-LOGO-3000-grey-line.png');
+	background-color:#F9F9F9;
+    background-repeat: no-repeat;
+	/*background-repeat:repeat-y;*/
+	background-position:top left;
+	background-attachment:fixed;
+    /* Margin bottom by footer height */
+    background-size:contain;
+    background-position:left center;
+    margin-bottom: 30px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 30px;
+    background-color: #333333;
+    color: #f9f9f9;
+}
+
+.logo-large {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.logo-small {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .logo-large {
+        display: none;
+    }
+
+    .logo-small {
+        display: block;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 900px) {
+    .logo-large {
+        display: block;
+    }
+
+    .logo-small {
+        display: none;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .logo-large {
+        display: block;
+    }
+
+    .logo-small {
+        display: none;
+    } 
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 5px;
+}
+.container .text-muted {
+  margin: 5px 0;
+}
+.footer a, .footer .muted{color: #888;}
+.fa { margin: 0px 10px;}
+.footer a { text-decoration: underline;}
+.footer a:hover { text-decoration: none;}

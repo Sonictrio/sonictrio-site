@@ -8,7 +8,7 @@ body {
 	background-color:#F9F9F9;
     background-repeat: no-repeat;
 	/*background-repeat:repeat-y;*/
-	background-position:top left;
+	background-position:top right;
 	background-attachment:fixed;
     /* Margin bottom by footer height */
     background-size:contain;

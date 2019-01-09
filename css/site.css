@@ -12,7 +12,7 @@ body {
 	background-attachment:fixed;
     /* Margin bottom by footer height */
     background-size:contain;
-    background-position:left center;
+    background-position:right center;
     margin-bottom: 30px;
 }
 .footer {
